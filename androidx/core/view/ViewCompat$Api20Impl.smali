@@ -1,0 +1,23 @@
+# classes.dex
+
+.class public abstract Landroidx/core/view/ViewCompat$Api20Impl;
+.super Ljava/lang/Object;
+.source "r8-map-id-6509c9f3b60d27661908b45813a960657b4106ebb337aabb0bee3e45ef1a2771"
+
+
+# direct methods
+.method public static dispatchApplyWindowInsets(Landroid/view/View;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+    .registers 3
+
+    .line 1
+    sget v0, Landroidx/core/view/ViewGroupCompat;->$r8$clinit:I
+
+    .line 3
+    invoke-virtual {p0, p1}, Landroid/view/View;->dispatchApplyWindowInsets(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+.end method

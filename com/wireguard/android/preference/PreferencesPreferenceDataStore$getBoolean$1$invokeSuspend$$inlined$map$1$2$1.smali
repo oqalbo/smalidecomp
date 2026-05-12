@@ -1,0 +1,63 @@
+# classes.dex
+
+.class public final Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2$1;
+.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+
+
+# instance fields
+.field public label:I
+
+.field public synthetic result:Ljava/lang/Object;
+
+.field public final synthetic this$0:Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2;
+
+
+# direct methods
+.method public constructor <init>(Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2;Lkotlin/coroutines/Continuation;)V
+    .registers 3
+
+    .line 1
+    iput-object p1, p0, Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2$1;->this$0:Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2;
+
+    .line 3
+    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/Continuation;)V
+
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 3
+
+    .line 1
+    iput-object p1, p0, Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2$1;->result:Ljava/lang/Object;
+
+    .line 3
+    iget p1, p0, Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2$1;->label:I
+
+    .line 5
+    const/high16 v0, -0x80000000
+
+    .line 7
+    or-int/2addr p1, v0
+
+    .line 8
+    iput p1, p0, Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2$1;->label:I
+
+    .line 10
+    iget-object p1, p0, Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2$1;->this$0:Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2;
+
+    .line 12
+    const/4 v0, 0x0
+
+    .line 13
+    invoke-virtual {p1, v0, p0}, Lcom/wireguard/android/preference/PreferencesPreferenceDataStore$getBoolean$1$invokeSuspend$$inlined$map$1$2;->emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    .line 16
+    move-result-object p0
+
+    .line 17
+    return-object p0
+.end method
